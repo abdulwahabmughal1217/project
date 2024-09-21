@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    font-family: "Black Ops One", cursive;
+}
+
+.navbar-brand {
+    font-size: 43px;
+    font-weight: 700;
+    color: #00FFC8;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #00FFC8;
+}
+
+.resume-link:hover {
+    color: #fff;
+}
+
+.heading-section {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.heading-section h1 {
+    color: #fff;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.heading-section h2 {
+    font-size: 2rem;
+    color: #00FFC8;
+}
+
+.heading-section p {
+    font-size: 1.2rem;
+    color: #aaa;
+    text-align: center;
+    max-width: 70vw;
+    margin: 20px auto;
+}
+
+.social-icons a {
+    color: #00FFC8;
+    font-size: 1.5rem;
+    margin: 0 10px;
+}
+
+.social-icons a:hover {
+    color: #fff;
+}
+
+.about-section {
+    padding: 100px 0;
+}
+
+.about-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #00FFC8;
+}
+
+.about-img {
+    border-radius: 20px;
+    border: 2px solid #00FFC8;
+}
+
+.about-content p {
+    margin-bottom: 1rem;
+}
+
+.about-content a {
+    color: #00FFC8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.about-content a:hover {
+    color: #fff;
+}
+
+.about-section {
+    padding: 100px 0;
+    color: #fff;
+}
+
+.about {
+    padding: 50px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 24px;
+}
+
+.line {
+    width: 200px;
+    height: 2px;
+    background-color: gray;
+}
+
+.about-title {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.myimage {
+    border-radius: 15% 55% 62% 28% / 64% 33% 67% 36%;
+    animation: image 4s linear infinite;
+    background-color: #00b4935e;
+    border: 2px solid #00f5bc;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+@keyframes image {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.about-img {
+    border-radius: 15% 55% 62% 28% / 64% 33% 67% 36%;
+    z-index: 10;
+    width: 300px;
+    height: 300px;
+}
+
+.about-content p {
+    margin-bottom: 1rem;
+}
+
+.about-content a {
+    color: #00FFC8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.about-content a:hover {
+    color: #fff;
+}
+.hero{
+    color: white;
+}
+.tech-card {
+    background-color: #343a40;
+    transition: transform 0.3s ease;
+}
+.tech-card:hover {
+    transform: translateY(-5px);
+}
+.tech-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.card-title{
+    color: #fff;
+}
+
+.projects-section {
+    position: relative;
+    padding: 4rem 0;
+    overflow: hidden;
+    color: white;   
+}
+.project-card {
+    background-color: #222;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    height: 400px;
+    perspective: 1000px;
+}
+.project-card:hover {
+    transform: scale(1.05);
+}
+.project-content {
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+footer{
+    color: #fff;
+}
+.contact-form {
+    max-width: 500px;
+    margin: 50px auto;
+}
+.form-control {
+    background-color: transparent;
+    border-color: #3a3a3a;
+    color: white;
+}
+.btn-submit {
+    background-color: #00ffcc;
+    border: none;
+    color: black;
+}
+.floating-shapes {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+.shape {
+    position: absolute;
+    opacity: 0.1;
+}
+.rocter img{
+    transform: rotate(-45deg);
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 50px;
+    animation: roct 1s linear infinite;
+}
+@keyframes roct {
+    from{
+        bottom: 50px;
+    }
+    to{
+        bottom: 70px;
+    }
+}
